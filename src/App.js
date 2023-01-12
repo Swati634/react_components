@@ -5,6 +5,9 @@ import List from "./List";
 import Student from "./Student_class_com";
 import Functcomponent from "./Functcomponent";
 import Classcomp from "./Classcomp";
+import Stopwatchfun from './Stopwatchfun';
+import Gettime from "./Gettime";
+import UseEffectex from "./UseEffectex";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Student city="Surat" />
       <Functcomponent text="Functional Component" />
       <Classcomp />
+      <Stopwatchfun />
+      <Gettime />
+      <UseEffectex />
     </>
   );
 }
