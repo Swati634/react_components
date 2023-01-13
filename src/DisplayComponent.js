@@ -13,7 +13,7 @@ const DisplayComponent = (props) => {
     return (
         <div>
             <h3>React Hook Example </h3>
-            <h4>Hello this is my swatchwatch</h4>
+            <h4>Hello this is my swatchwatch demo</h4>
             {h()}
             <span>{props.time.m >= 10 ? props.time.m : "0" + props.time.m} : </span>
             <span>{props.time.s >= 10 ? props.time.s : "0" + props.time.s} : </span>
