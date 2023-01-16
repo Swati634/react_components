@@ -8,6 +8,8 @@ const Gettime = () => {
         newTime = new Date().toLocaleTimeString();
         setCtime(newTime);
     };
+    // If you want a digital watch then used setInterval
+    // setInterval(UpdateTime, 100);
     return (
         <div>
             <h4>Get Current Time Using Usestate Hook</h4>
