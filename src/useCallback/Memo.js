@@ -12,7 +12,7 @@ const Memo = () => {
         setcounterTwo(counterTwo + 1)
     }
     const isEven = useMemo(() => {
-        console.warn("==hello memo value")
+        console.log("==hello memo value")
         let i = 0;
         while (i < 200000000) i++
         return counterOne % 2 === 0
