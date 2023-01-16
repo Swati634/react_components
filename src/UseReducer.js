@@ -42,4 +42,4 @@ const UseReducer = () => {
 }
 
 
-export default UseReducer
+export default UseReducer;
