@@ -11,6 +11,9 @@ import UseEffectex from "./UseEffectex";
 import CompoA from "./CompoA";
 import CompA from './useContext/CompA';
 import UseReducer from './UseReducer';
+import CallbackHook from './useCallback/CallbackHook';
+import Memo from './useCallback/Memo';
+import UseRef from './useCallback/UseRef';
 
 const FirstName = createContext()
 const LastName = createContext()
@@ -33,6 +36,9 @@ const App = () => {
       </FirstName.Provider>
       <CompA />
       <UseReducer />
+      <CallbackHook />
+      <Memo />
+      <UseRef />
     </div>
   )
 }
