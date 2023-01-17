@@ -14,13 +14,15 @@ import UseReducer from './UseReducer';
 import CallbackHook from './useCallback/CallbackHook';
 import Memo from './useCallback/Memo';
 import UseRef from './useCallback/UseRef';
+import Userefhook from './useCallback/Userefhook';
+import Pokemon from './UseEffectEx/Pokemon ';
 
 const FirstName = createContext()
 const LastName = createContext()
 const App = () => {
   return (
     <div>
-      <Heading />
+      {/* <Heading />
       <Para />
       <List />
       <Student city="Surat" />
@@ -34,11 +36,15 @@ const App = () => {
           <CompoA />
         </LastName.Provider>
       </FirstName.Provider>
-      <CompA />
+      <CompA /> */}
       <UseReducer />
       <CallbackHook />
       <Memo />
       <UseRef />
+      <Userefhook />
+      <Pokemon />
+
+
     </div>
   )
 }
