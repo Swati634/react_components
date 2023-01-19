@@ -16,6 +16,8 @@ import Memo from './useCallback/Memo';
 import UseRef from './useCallback/UseRef';
 import Userefhook from './useCallback/Userefhook';
 import Pokemon from './UseEffectEx/Pokemon ';
+import InputNum from './UseEffectCal/InputNum';
+import Mul from './UseEffectCal/Mul';
 
 const FirstName = createContext()
 const LastName = createContext()
@@ -36,13 +38,16 @@ const App = () => {
           <CompoA />
         </LastName.Provider>
       </FirstName.Provider>
-      <CompA /> */}
+      <CompA />
       <UseReducer />
       <CallbackHook />
       <Memo />
       <UseRef />
       <Userefhook />
-      <Pokemon />
+      <Pokemon /> */}
+      <InputNum />
+      {/* <Mul /> */}
+
 
 
     </div>

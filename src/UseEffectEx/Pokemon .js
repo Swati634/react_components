@@ -30,6 +30,7 @@ const Pokemon = () => {
                 <option value="4">4</option>
                 <option value="5">5</option>
             </select>
+            React API Call to Get Pokemon JSON Data using Axios and useEffect
         </div>
     )
 }
