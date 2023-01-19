@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import DisplayNumData from "./DisplayNumData";
 
 const Subtraction = (props) => {
+    const [ans, setAns] = useState();
+    useEffect(() => {
+        setAns(props.numb1 - props.numb2);
+    }, [props]);
+
     return (
         <div>
-            <h3>Sub : {props.numb1 - props.numb2}</h3>
+            <DisplayNumData ans={ans} tit="Subtraction"></DisplayNumData>
         </div>
-    )
-}
+    );
+};
 
-export default Subtraction
+export default Subtraction;

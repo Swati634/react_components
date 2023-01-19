@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import DisplayNumData from "./DisplayNumData";
 
 const Mul = (props) => {
+    const [ans, setAns] = useState();
+    useEffect(() => {
+        setAns(props.numb1 * props.numb2);
+    }, [props]);
+
     return (
         <div>
-            <h3>Multiplication: {props.numb1 * props.numb2}</h3>
+            <DisplayNumData ans={ans} tit="Multiplication"></DisplayNumData>
         </div>
-    )
-}
+    );
+};
 
-export default Mul
+export default Mul;
