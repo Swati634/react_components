@@ -1,14 +1,15 @@
-import React from 'react'
-import InputNum from './InputNum'
+import React from "react";
 
-const DisplayNumData = () => {
+const DisplayNumData = (props) => {
     return (
         <div>
             <center>
-                <InputNum />
+                {props.tit}
+                <br></br>
+                {props.ans}
             </center>
-        </div >
-    )
-}
+        </div>
+    );
+};
 
-export default DisplayNumData
+export default DisplayNumData;

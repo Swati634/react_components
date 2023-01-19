@@ -1,10 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from "react";
+import DisplayNumData from "./DisplayNumData";
+
 const AddNumber = (props) => {
+    const [ans, setAns] = useState();
+    useEffect(() => {
+        setAns(props.num1 + props.num2);
+    }, [props]);
+
     return (
         <div>
-            <h3>Add : {props.num1 + props.num2}</h3>
-        </div >
-    )
-}
+            <DisplayNumData ans={ans} tit="Addition" />
+        </div>
+    );
+};
 
-export default AddNumber
+export default AddNumber;
