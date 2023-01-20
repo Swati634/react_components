@@ -20,7 +20,7 @@ const InputNum = () => {
                         onChange={(e) => setValOne(parseInt(e.target.value))}
                         value={valOne}
                     />
-                    <span> Number 2:</span>{" "}
+                    <span> Number 2:</span>
                     <input
                         type="number"
                         onChange={(e) => setValTwo(parseInt(e.target.value))}

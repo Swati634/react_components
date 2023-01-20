@@ -22,6 +22,7 @@ import UseEffectVSUseMemo from "./PropsEx/UseEffectVSUseMemo";
 import Input from "./PropsEx/Input";
 import UseEffe from "./UseEffectEx/UseEffe";
 import DisplayDestructur from "./PropsEx/DisplayDestructur";
+import UseRefEx from "./useCallback/UseRefEx";
 
 const FirstName = createContext();
 const LastName = createContext();
@@ -51,10 +52,11 @@ const App = () => {
       <Pokemon /> */}
       {/* <Mul /> */}
       <InputNum />
-      {/* <UseEffectVSUseMemo /> */}
+      <UseEffectVSUseMemo />
       <Input />
       <UseEffe />
       <DisplayDestructur />
+      <UseRefEx />
     </div>
   );
 };

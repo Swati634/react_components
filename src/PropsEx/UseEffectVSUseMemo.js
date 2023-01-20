@@ -32,7 +32,7 @@ const UseEffectVSUseMemo = () => {
         return (
             <div>
                 <h3 style={{ color: "blue" }}>
-                    No react again{count}--- {name}
+                    No render again{count}--- {name}
                 </h3>
                 <h3 style={{ color: "blue" }}>UseEffect Vs UseMemo</h3>
             </div>
